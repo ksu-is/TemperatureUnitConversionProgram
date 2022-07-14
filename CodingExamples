@@ -1,0 +1,55 @@
+def calcPounds (kilogram1, kilogram2, kilogram3, kilogram4, kilogram5,\
+               kilogram6, kilogram7, kilogram8, kilogram9, kilogram10):
+   
+pound1 = kilogram1 * 0.453592
+pound2 = kilogram2 * 0.453592
+pound3 = kilogram3 * 0.453592
+pound4 = kilogram4 * 0.453592
+pound5 = kilogram5 * 0.453592
+pound6 = kilogram6 * 0.453592
+pound7 = kilogram7 * 0.453592
+pound8 = kilogram8 * 0.453592
+pound9 = kilogram9 * 0.453592
+pound10 = kilogram10 * 0.453592
+
+return pound1, pound2, pound3, pound4, pound5,\
+     pound6, pound7, pound8, pound9, pound10                
+               
+def askforweight():
+kilogram1 = float(input("Please enter weight in kilogram: "))
+kilogram2 = float(input("Please eneter weight in kilogram:"))
+kilogram3 = float(input("Please enter weight in kilogram:"))
+kilogram4 = float(input("Please enter weight in kilogram:"))
+kilogram5 = float(input("Please enter weight in kilogram:"))
+kilogram6 = float(input("Please enter weight in kilogram:"))
+kilogram7 = float(input("Please enter weight in kilogram:"))
+kilogram8 = float(input("Please enter weight in kilogram:"))
+kilogram9 = float(input("Please enter weight in kilogram:"))
+kilogram10 = float(input("Please enter weight in kilogram:"))
+
+return kilogram1, kilogram2, kilogram3, kilogram4, kilogram5,\
+       kilogram6, kilogram7, kilogram8, kilogram9, kilogram10,
+
+def printconvertedresults(kilogram1, kilogram2, kilogram3, kilogram4, kilogram5, kilogram6, kilogram7,kilogram8,kilogram9,kilogram10)
+
+print("kilograms\tpounds")
+print(str( kilogram1)+ "\t"+calcPounds(kilogram1),
+     (str(kilogram2) + "\t" + calcPounds(kilogram2),
+     (str(kilogram3 + "\t" + calcPounds(kilogram3),
+     (str(kilogram4 + "\t" + calcPounds(kilogram4),
+     (str(kilogram5 + "\t" + calcPounds(kilogram5),
+     (str(kilogram6 + "\t" + calcPounds(kilogram6),
+     (str(kilogram7 + "\t" + calcPounds(kilogram7),
+     (str(kilogram8 + "\t" + calcPounds(kilogram8),
+     (str(kilogram9 + "\t" + calcPounds(kilogram9),
+     (str(kilogram10 + "\t" + calcPounds(kilogram10),
+
+def main():
+     kilogram1, kilogram2, kilogram3, kilogram4, kilogram5,\
+     kilogram6, kilogram7, kilogram8, kilogram9, kilogram10 = askForWeight()
+  print("")
+  printconvertedresults(kilogram1, kilogram2, kilogram3, kilogram4, kilogram5,\
+                         kilogram6, kilogram7,kilogram8, kilogram9, kilogram10) 
+
+  print( askforweight, "kilogram converted to pounds is", printconvertedresults(kilogram1, kilogram2, kilogram3, kilogram4, kilogram5)\
+                                                                                 kilogram6, kilogram7, kilogram8, kilogram9, kilogram9, kilogram10)
