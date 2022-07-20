@@ -36,3 +36,6 @@ I will be putting each conversion portion into a seperate function, as shown in 
 
 UPDATE 7/20/2022
 - All main functions have been complete for calculations. Spending the rest of my time finishing up main (WHILE TRUE) loop in order to have a unlimited conversion caluclator at the users discretion. Final code was added to final code page. 
+
+2nd UPDATE 7/20/2022
+- Added the MASS measurments in print_menu
