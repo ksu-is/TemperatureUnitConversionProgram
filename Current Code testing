@@ -53,3 +53,144 @@ choice = input ("What conversion would you like to do? ")
 if choice == '1':
     miles_kilo
 if choice == '2':
+
+
+
+# BELOW IS FINISHED CODE FOR FUNCTIONS and measurments 
+
+from ast import While
+from pickle import TRUE
+
+
+def print_menu():
+    print("Standard - Metric")
+    print('1. Mile - Kilometer ')
+    print('2. Inch - Millimeter ')
+    print('3. Inch - Centimeter')
+    print('4. Foot - Meter')
+    print('5. Yard - Meter')
+    print("")
+    print("Metric - Standard")
+    print('6. Kilometer - Mile  ')
+    print('7. Millimeter - Inch')
+    print('8. Centimeter - Inch ')
+    print('9. Meter - Foot  ')
+    print('10. Meter - Yard')
+
+# Function for Converting MILES to KILOMETERS
+def miles_kilo():
+    miles_input = float(input('Enter a distance in Miles: '))
+    km = miles_input * 1.609347
+    print('You entered {0} Miles. Distance in kilometers: {1}'.format(miles_input, km))
+
+# Function for Converting KILOMETERS TO MILES
+def kilo_miles():
+    kilometers_input = float(input('Enter a distance in Kilometers: '))
+    m = kilometers_input * 0.6214
+    print('You entered {0} Kilometers. Distance in Miles: {1}').format(kilometers_input,m)
+
+# Function for Converting INCHES TO MILLIMETERS
+def inch_millimeter():
+    inch_input = float(input('Enter a distance in Inches: '))
+    millimeters = inch_input * 25.4
+    print('You entered {0} Inches. Distance in Millimeters: {1}').format(inch_input,millimeters)
+
+# Function for Converting INCHES TO CENTIMETERS
+def inch_centimeter():
+    inch1_input = float(input('Enter a distance in Inches: '))
+    centimeters = inch1_input * 2.54
+    print('You entered {0} Inches. Distance in Centimeters: {1}').format(inch1_input,centimeters)
+
+# Function for Converting FEET TO METERS
+def foot_meter():
+    foot_input = float(input('Enter a distance in Feet: '))
+    meters = foot_input * 0.3048
+    print('You entered {0} Feet. Distance in Meters: {1}').format(foot_input, meters)
+
+# Function for Converting Yards to Meters
+def yard_meter():
+    yard_input = float(input('Enter a distance in Yards: '))
+    meters2 = yard_input * 0.9144
+    print('You entered {0} Yards. Distance in Meters: {1}').format(yard_input,meters2)
+
+# Function for Converting Kilometer to Mile
+def kilo_mile():
+    kilo_input = float(input('Enter a distance in Kilometers: '))
+    miles = kilo_input * 0.6214
+    print('You entered {0} Kilometers. Distance in Miles: {1}').format(kilo_input,miles)
+
+# Function for Converting Millimeters to Inches
+def millimeter_inch():
+    mill_input = float(input('Enter a distance in Millimeters: '))
+    inch1 = mill_input * 0.0394
+    print('You entered {0} Millimeters. Distance in Inches: {1}').format(mill_input,inch1)
+
+# Function for Converting Centimeter to Inches
+def cent_inch():
+    cent_input = float(input('Enter a distance in Centimeters: '))
+    inch2 = cent_input * 0.3937
+    print('You entered {0} Centimeters. Distance in Inches: {1}').format(cent_input,inch2)
+
+# Function for Converting Meters to Feet
+def meter_feet():
+    meter_input = float(input('Enter a distance in Meters: '))
+    feet2 = meter_input * 3.281
+    print('You entered {0} Meters. Distance in Feet: {1}').format(meter_input,feet2)
+
+# Function for Converting Meters To Yards
+def meter_yard():
+    meter3_input = float(input('Enter a distance in Meters: '))
+    feet3 = meter3_input * 1.094
+    print('You entered {0} Meters. Distance in Yards: {1} ').format(meter3_input,feet3)
+
+# MASS CONVERSIONS BELOW
+
+# Function for Converting Ounces to Grams
+def ounces_grams():
+    ounces_input = float(input('Enter a weight in Ounces: '))
+    grams = ounces_input * 28
+    print('You entered {0} Ounces. Weight in Grams: {1} ').format(ounces_input,grams)
+
+# Functions for Converting Pounds to Kilos
+def pounds_kilos():
+    pounds_input = float(input('Enter a weight in Pounds: '))
+    kilo = pounds_input * 0.45
+    print('You entered {0} Pounds. Weight in Kilos: {1} ').format(pounds_input,kilo)
+
+# Function for Short Ton to Metric Ton
+def ShortTon_MetricTon():
+    ShortTon_input = float(input('Enter a weight in ShortTons: '))
+    metricton = ShortTon_input * 0.9
+    print('You entered {0} Short Tons. Weight in Metric Tons: {1}').format(ShortTon_input,metricton)
+
+# Function for Ounces to Grams
+def Grams_Ounces():
+    grams = float(input('Enter a weight in Grams: '))
+    ounces = grams * 0.035
+    print('You entered {0} Grams. Weight in Ounces: {1}').format(grams,ounces)
+
+# Function for Kilograms to Pounds
+def Kilo_Pounds():
+    kilo_input = float(input('Enter a weight in Kilos: '))
+    pounds = kilo_input * 2.2
+    print('You entered {0} Kilos. Weight in Pounds: {1}').format(kilo_input,pounds)
+
+# Function for Metric Tons to Short Tons
+def MetricTons_ShortTons():
+    metricton_input = float(input('Enter a weight in Metric Tons: '))
+    shorttons = metricton_input * 1.1
+    print('You entered {0} Metric Tons. Weight in Short Tons {1}').format(metricton_input,shorttons)
+
+
+
+
+
+While True:
+
+print_menu()
+
+    choice = input ("What conversion would you like to do? ")
+
+    if choice == '1':
+        miles_kilo()
+    if choice == '2':
