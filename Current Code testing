@@ -12,6 +12,14 @@ def print_menu():
     print('8. Centimeter - Inch ')
     print('9. Meter - Foot  ')
     print('10. Meter - Yard')
+    print("MASS MEASUREMENTS")
+    print('11. Ounces - Grams')
+    print('12. Pounds - Kilograms')
+    print('13. Short Ton - Metric Ton')
+    print('14. Grams - Ounces')
+    print('15. Kilograms - Pounds')
+    print('16. Metric Tons - Short Tons')
+
 
 # Function for Converting MILES to KILOMETERS
 def miles_kilo():
@@ -76,6 +84,14 @@ def print_menu():
     print('8. Centimeter - Inch ')
     print('9. Meter - Foot  ')
     print('10. Meter - Yard')
+    print("MASS MEASUREMENTS")
+    print('11. Ounces - Grams')
+    print('12. Pounds - Kilograms')
+    print('13. Short Ton - Metric Ton')
+    print('14. Grams - Ounces')
+    print('15. Kilograms - Pounds')
+    print('16. Metric Tons - Short Tons')
+
 
 # Function for Converting MILES to KILOMETERS
 def miles_kilo():
